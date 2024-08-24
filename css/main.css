@@ -1946,6 +1946,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content h1 {
     font-size: 3.3rem;
+    text-align: left;
   }
 
   .home-content__main {
@@ -1989,6 +1990,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content h1 {
     font-size: 3rem;
+    text-align: left;
   }
 
   .home-content__main {
@@ -2001,6 +2003,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content__text p {
     font-size: 1.6rem;
+    text-align: left;
   }
 
   .home-copyright {
