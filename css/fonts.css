@@ -9,7 +9,7 @@
 ================================================================================ */
 @font-face {
   font-family: "domine-regular";
-  src: url("../fonts/domine/domine-regular-webfont.woff2") format("woff2"), url("../fonts/domine/domine-regular-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
@@ -27,45 +27,54 @@
 ================================================================================ */
 @font-face {
   font-family: "metropolis-bold";
-  src: url("../fonts/metropolis/metropolis-bold-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-bold-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-Bold.ttf") format("ttf"), url("../fonts/Ubuntu-Bold.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "metropolis-semibold";
-  src: url("../fonts/metropolis/metropolis-semibold-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-semibold-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-Bold.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "metropolis-medium";
-  src: url("../fonts/metropolis/metropolis-medium-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-medium-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "metropolis-regular";
-  src: url("../fonts/metropolis/metropolis-regular-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-regular-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-MediumItalic.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "metropolis-light";
-  src: url("../fonts/metropolis/metropolis-light-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-light-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-Regular.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "metropolis-extralight";
-  src: url("../fonts/metropolis/metropolis-extralight-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-extralight-webfont.woff") format("woff");
+  src: url("../fonts/Ubuntu-BoldItalic.ttf");
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "metropolis-newBold";
+  src: url("../fonts/Ubuntu-Italic.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 
 @font-face {
   font-family: "metropolis-italic";

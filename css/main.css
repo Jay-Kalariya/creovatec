@@ -57,7 +57,7 @@ body {
 }
 
 body {
-  background: #111111;
+  background: #000;
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #ec008c;
+  /* color: #ec008c; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -88,14 +88,16 @@ a:active {
   outline: 0;
 }
 
-
+.HomeOnline{
+  font-family: "metropolis-newBold";
+}
 
 /* ===================================================================
  * # typography & general theme styles - (_document-setup.scss)
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "domine-regular", serif;
+  font-family: "domine-regular";
   color: #000000;
   font-style: normal;
   font-weight: normal;
@@ -230,7 +232,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "domine-regular", serif;
+  font-family: "domine-regular";
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
@@ -239,7 +241,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "domine-regular", serif;
+  font-family: "domine-regular";
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -367,7 +369,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ec008c;
+  /* background: #ec008c; */
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +378,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #ec008c;
+  /* color: #ec008c; */
 }
 
 dd {
@@ -501,7 +503,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #ec008c;
+  background: #77FF00;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -630,7 +632,7 @@ select {
   border: 0;
   outline: none;
   color: #151515;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "metropolis-regular";
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -711,7 +713,7 @@ select:focus {
 
 label,
 legend {
-  font-family: "metropolis-semibold", sans-serif;
+  font-family: "metropolis-semibold";
   font-size: 1.4rem;
   font-weight: normal;
   margin-bottom: .9rem;
@@ -793,7 +795,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "metropolis-semibold", sans-serif;
+  font-family: "metropolis-semibold";
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -835,8 +837,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #ec008c;
-  border-color: #ec008c;
+  /* background: #ec008c;
+  border-color: #ec008c; */
   color: #FFFFFF;
 }
 
@@ -1062,7 +1064,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #ec008c;
+  /* color: #ec008c; */
 }
 
 .stats-tabs li a em {
@@ -1244,8 +1246,8 @@ input::-moz-focus-inner {
 }
 
 .home-logo img {
-  width: 100px;
-  height: 25px;
+  width: 200px;
+  height: auto;
 }
 
 
@@ -1262,7 +1264,7 @@ input::-moz-focus-inner {
 }
 
 .home-content h3 {
-  font-family: "metropolis-medium", sans-serif;
+  font-family: "metropolis-medium";
   font-size: 1.4rem;
   line-height: 1.286;
   text-transform: uppercase;
@@ -1277,12 +1279,15 @@ input::-moz-focus-inner {
 .home-content h3::before {
   content: "";
   display: block;
-  background-color: rgba(236, 0, 140, 0.6);
-  width: 40px;
-  height: 1px;
+  background-image: url("../images/line.png");
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(236, 0, 140, 0.6); */
+  width: 70px;
+  height: 16px;
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: -4px;
+  top: 57%;
 }
 
 .home-content h1 {
@@ -1352,8 +1357,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #ec008c;
-  border-color: #ec008c;
+  background: #050C9C;
+  border-color: #050C9C;
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1414,7 +1419,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #ec008c;
+  background-color: #050C9C;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1424,7 +1429,7 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 12rem;
-  background-color: #ec008c;
+  background-color: #77FF00;
   position: absolute;
   right: 84px;
   bottom: 0;
@@ -1483,7 +1488,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #ec008c;
+  color: #77FF00;
   right: 6rem;
   opacity: 0;
   visibility: hidden;
@@ -1748,7 +1753,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content h3::before {
-    width: 30px;
+    width: 70px;
   }
 
   .home-content h1 {
@@ -2056,8 +2061,10 @@ html.no-csstransitions .home-content__main {
   display: block;
   content: "";
   width: 80px;
-  height: 1px;
-  background-color: rgba(236, 0, 140, 0.6);
+  height: 16px;
+  background-image: url("../images/line.png");
+  background-size: cover;
+  background-position: center;
   position: absolute;
   left: 3px;
   top: -3.6rem;
@@ -2067,7 +2074,7 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  color: #ec008c;
+  color: #77FF00;
 }
 
 .info-wrapper {
@@ -2161,7 +2168,7 @@ html.no-csstransitions .home-content__main {
   z-index: 502;
   background-color: #000000;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  font-family: "metropolis-medium", sans-serif;
+  font-family: "metropolis-medium";
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -2205,7 +2212,7 @@ html.no-csstransitions .home-content__main {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: #ec008c;
+  background-color: #77FF00;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
@@ -2242,7 +2249,7 @@ html.no-csstransitions .home-content__main {
 
 .info-is-visible .info-menu-icon::before,
 .info-is-visible .info-menu-icon::after {
-  background-color: #ec008c;
+  background-color: #77FF00;
   -webkit-transition-delay: 0s, 0.2s;
   transition-delay: 0s, 0.2s;
 }
